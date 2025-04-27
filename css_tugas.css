@@ -84,7 +84,7 @@ header .contact {
 }
 
 .skill-header {
-  background-color: #ddd;
+  background-color: #e0e0e0;
   display: inline-block;
   padding: 10px 20px;
   border-top-left-radius: 30px;
@@ -100,7 +100,7 @@ header .contact {
   display: flex;
   align-items: center; /* ini sudah bagus */
   justify-content: center;
-  gap: 20px;
+  gap: 100px;
   margin-top: 20px;
   padding: 10px 0; /* tambahkan padding atas dan bawah */
   flex-wrap: wrap; /* Agar elemen bisa membungkus jika layarnya sempit */
@@ -192,6 +192,10 @@ header .contact {
     grid-template-columns: repeat(3, 1fr); /* 3 kolom pada layar sedang */
   }
 
+  .skill-content {
+    gap: 40px;
+  }
+
   .coding-skill .skill-content {
     flex-direction: column; /* Mengubah orientasi skill-content */
   }
@@ -229,6 +233,10 @@ header .contact {
   .coding-skill .box img {
     width: 80px; /* Menyesuaikan ukuran gambar pada layar kecil */
     height: 80px; /* Menyesuaikan tinggi gambar */
+  }
+
+  .skill-content {
+    gap: 40px;
   }
 }
 
@@ -278,5 +286,9 @@ header .contact {
   .coding-skill .box img {
     width: 60px; /* Menyesuaikan ukuran gambar pada layar kecil */
     height: 60px; /* Menyesuaikan tinggi gambar */
+  }
+
+  .skill-content {
+    gap: 40px;
   }
 }
