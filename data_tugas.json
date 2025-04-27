@@ -21,36 +21,43 @@
     },
     {
         "keanggotaan":"PIK-R SMAN 1 Banjarmasin",
+        "gambarProfile":"imgProfile/img2.jpg",
         "nama":"Rizqa Oktavia Ramadhani",
-        "sebagai":"Ketua Ekstrakulikuler PIK-R Periode 2022"
+        "sebagai":"Ketua Ekstrakulikuler PIK-R Periode 2023"
     },
     {
         "keanggotaan":"UKM Peduli Pendidikan ULM",
+        "gambarProfile":"imgProfile/img3.jpeg",
         "nama":"Rizqa Oktavia Ramadhani",
-        "sebagai":"Koordinator Program Mengajar Desa Anjir Pasar Kota 2 Tahun 2025"
+        "sebagai":"Relawan Pengajar Desa Anjir Pasar Kota 2 Tahun 2025"
     },
     {
-        "keanggotaan":"Komunitas Mengajar Pelosok Indonesia",
+        "keanggotaan":"Komunitas Mengajar Pelosok",
+        "gambarProfile":"imgProfile/img4.jpeg",
         "nama":"Rizqa Oktavia Ramadhani",
-        "sebagai":"Relawan Pengajar 2025"
+        "sebagai":"Relawan Pengajar Desa Hulu Sungai 29 Tahun 2025"
     },
     {
         "keanggotaan":"Yayasan Gerakan Anak Bangsa",
+        "gambarProfile":"imgProfile/img5.jpeg",
         "nama":"Rizqa Oktavia Ramadhani",
         "sebagai":"Koordinator Regional Kalimantan 2025"
     },
     {
         "keanggotaan":"Komunitas Sahabat Literasi",
+        "gambarProfile":"imgProfile/img6.jpeg",
         "nama":"Rizqa Oktavia Ramadhani",
         "sebagai":"Ketua Tim Pendidikan Dasar 2025"
     },
     {
         "keanggotaan":"Gerakan Membangun Desa (GMD)",
+        "gambarProfile":"imgProfile/img7.jpeg",
         "nama":"Rizqa Oktavia Ramadhani",
         "sebagai":"Relawan Penggerak UMKM Desa 2025"
     },
     {
-        "keanggotaan":"Komunitas Hijau Borneo",
+        "keanggotaan":"Komunitas Hijau Borneo (KHB)",
+        "gambarProfile":"imgProfile/img8.jpeg",
         "nama":"Rizqa Oktavia Ramadhani",
         "sebagai":"Ketua Divisi Konservasi Hutan 2025"
     },

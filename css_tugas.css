@@ -44,7 +44,21 @@ header .contact {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
+}
+
+.sidebar h3{
+  background-color: #68b4fb;
+  padding: 10px;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.sidebar img{
+  background-color: #f9f7f7;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
 }
 
 /* CONTENT AREA */

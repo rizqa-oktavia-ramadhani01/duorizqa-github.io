@@ -67,6 +67,3 @@ fetch('data_tugas.json')
     // Menampilkan gambar pertama kali saat halaman dimuat
     renderSkills();
   })
-  .catch(error => {
-    console.error('Gagal mengambil data:', error);
-  });
