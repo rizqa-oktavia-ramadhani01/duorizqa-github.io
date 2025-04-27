@@ -1,4 +1,18 @@
-[
+{
+    "skill":[
+        {"codingSkill":"imgProfile/cs1.png"},
+        {"codingSkill":"imgProfile/cs2.png"},
+        {"codingSkill":"imgProfile/cs3.png"},
+        {"codingSkill":"imgProfile/cs4.png"},
+        {"codingSkill":"imgProfile/cs5.png"},
+        {"codingSkill":"imgProfile/cs6.png"},
+        {"codingSkill":"imgProfile/cs7.png"},
+        {"codingSkill":"imgProfile/cs8.png"},
+        {"codingSkill":"imgProfile/cs9.png"},
+        {"codingSkill":"imgProfile/cs10.png"}
+    ],
+    
+    "profile":[
     {
         "keanggotaan":"UKM FKIP MENGEAJAR ULM",
         "gambarProfile":"imgProfile/img1.jpg",
@@ -46,3 +60,4 @@
         "sebagai":""
     }
 ]
+}

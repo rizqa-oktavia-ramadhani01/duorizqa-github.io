@@ -66,6 +66,23 @@ header .contact {
   max-width: 100%; /* Agar tetap terjaga di layar kecil */
 }
 
+.coding-skill .box {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coding-skill .box img {
+  width: 100%; /* Mengisi lebar kontainer box */
+  height: 100%; /* Mengisi tinggi kontainer box */
+  object-fit: cover; /* Menyesuaikan gambar agar mengisi kotak tanpa merusak proporsi */
+  border-radius: 8px; /* Sudut melengkung pada gambar */
+  transition: transform 0.3s ease; /* Efek transisi saat hover */
+}
+
 .skill-header {
   background-color: #ddd;
   display: inline-block;
@@ -117,7 +134,7 @@ header .contact {
 }
 
 .coding-skill .box:hover{
-  transform: scale(1.05);
+  transform: scale(1.25);
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -208,6 +225,11 @@ header .contact {
     width: 80px; /* Menyesuaikan ukuran foto */
     height: 80px;
   }
+
+  .coding-skill .box img {
+    width: 80px; /* Menyesuaikan ukuran gambar pada layar kecil */
+    height: 80px; /* Menyesuaikan tinggi gambar */
+  }
 }
 
 /* Responsif untuk tampilan lebih kecil dari 480px */
@@ -251,5 +273,10 @@ header .contact {
   .team-member .photo img {
     width: 70px; /* Mengurangi ukuran foto */
     height: 70px;
+  }
+
+  .coding-skill .box img {
+    width: 60px; /* Menyesuaikan ukuran gambar pada layar kecil */
+    height: 60px; /* Menyesuaikan tinggi gambar */
   }
 }
