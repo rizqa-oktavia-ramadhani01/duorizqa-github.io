@@ -1,0 +1,255 @@
+/* RESET DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #0080ff;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header .contact {
+  font-size: 14px;
+}
+
+/* CONTAINER UTAMA */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  background-color: #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* CONTENT AREA */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* CODING SKILL SECTION */
+
+.coding-skill {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  width: 100%; /* Menyesuaikan lebar dengan ukuran layar */
+  max-width: 100%; /* Agar tetap terjaga di layar kecil */
+}
+
+.skill-header {
+  background-color: #ddd;
+  display: inline-block;
+  padding: 10px 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.skill-content {
+  display: flex;
+  align-items: center; /* ini sudah bagus */
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 10px 0; /* tambahkan padding atas dan bawah */
+  flex-wrap: wrap; /* Agar elemen bisa membungkus jika layarnya sempit */
+}
+
+.coding-skill h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.box {
+  background-color: #f9f7f7;
+  width: 100px;
+  height: 100px;
+}
+
+.coding-skill .box:hover{
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* TEAM SECTION */
+.keanggotaan-box {
+  background-color: #68b4fb; 
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0; /* bulat atas */
+}
+
+.isi-box {
+  background-color: #ffffff; /* putih */
+  color: #000000;
+  padding: 10px;
+  font-weight: normal;
+  border-radius: 0 0 8px 8px; /* bulat bawah */
+  margin: 0; /* buang jarak antar kotak */
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member .photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member p {
+  font-size: 14px;
+}  
+
+.team-member:hover {
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Responsif */
+@media screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 2fr; /* Sidebar lebih kecil */
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom pada layar sedang */
+  }
+
+  .coding-skill .skill-content {
+    flex-direction: column; /* Mengubah orientasi skill-content */
+  }
+}
+
+/* Responsif untuk tampilan lebih kecil dari 768px */
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Menjadikan layout menjadi satu kolom */
+  }
+
+  .sidebar {
+    width: 100%; /* Sidebar menyesuaikan lebar layar */
+    margin-bottom: 20px; /* Memberi jarak antara sidebar dan konten utama */
+  }
+
+  .main-content {
+    width: 100%; /* Mengatur lebar main-content */
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar lebih kecil */
+  }
+
+  .coding-skill .box {
+    width: 80px; /* Menyesuaikan ukuran kotak */
+    height: 80px;
+  }
+
+  .team-member .photo img {
+    width: 80px; /* Menyesuaikan ukuran foto */
+    height: 80px;
+  }
+}
+
+/* Responsif untuk tampilan lebih kecil dari 480px */
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column; /* Mengubah header menjadi kolom */
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 18px; /* Mengurangi ukuran font logo */
+  }
+
+  .contact {
+    font-size: 12px; /* Mengurangi ukuran font contact */
+  }
+
+  .container {
+    grid-template-columns: 1fr; /* Menjadikan seluruh layout menjadi satu kolom */
+    padding: 0 10px; /* Memberi jarak di sisi kiri dan kanan */
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr; /* 1 kolom untuk team grid */
+  }
+
+  .team-member {
+    padding: 10px; /* Mengurangi padding pada team member */
+  }
+
+  .coding-skill .box {
+    width: 60px; /* Mengurangi ukuran kotak */
+    height: 60px;
+  }
+
+  .coding-skill .skill-header {
+    font-size: 16px; /* Mengurangi ukuran font header */
+    padding: 8px 16px;
+  }
+
+  .team-member .photo img {
+    width: 70px; /* Mengurangi ukuran foto */
+    height: 70px;
+  }
+}
