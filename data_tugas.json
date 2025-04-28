@@ -9,7 +9,10 @@
         {"codingSkill":"imgProfile/cs7.png"},
         {"codingSkill":"imgProfile/cs8.png"},
         {"codingSkill":"imgProfile/cs9.png"},
-        {"codingSkill":"imgProfile/cs10.png"}
+        {"codingSkill":"imgProfile/cs10.png"},
+        {"codingSkill":"imgProfile/cs11.png"},
+        {"codingSkill":"imgProfile/cs12.png"},
+        {"codingSkill":"imgProfile/cs13.png"}
     ],
     
     "profile":[
@@ -62,9 +65,52 @@
         "sebagai":"Ketua Divisi Konservasi Hutan 2025"
     },
     {
-        "keanggotaan":"",
-        "nama":"Rizqa Oktavia Ramadhani",
-        "sebagai":""
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img9.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Kru Reporter Buletin Edisi XXVI"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img10.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"CO Divisi PDD Malam Keakraban 2025"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img11.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Kru Majalah VII"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img12.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Anggota Divisi PDD Semarak LPM Warta JITU X"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img13.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Relawan Pemuda Bakti Banua 2025"
+    },
+    {
+        "keanggotaan":"OSIM MAN 4 TABALONG",
+        "gambarProfile":"imgProfile/img14.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Ketua Divisi Humas OSIM MAN 4 Tabalong 2022/2023"
+    },
+    {
+        "keanggotaan":"Ambalan GUDEP MAN 4 TABALONG",
+        "gambarProfile":"imgProfile/img15.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Ketua Seksi Dokumentasi Perjusami 2022"
+    },
+    {
+        "keanggotaan":"OSIM MAN 4 TABALONG",
+        "gambarProfile":"imgProfile/img16.jpeg",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Koordinator Seksi Dokumentasi Perpisahan MAN 4 TABALONG 2024"
     }
 ]
 }
