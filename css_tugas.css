@@ -55,7 +55,6 @@ header .contact {
 }
 
 .sidebar img{
-  background-color: #f9f7f7;
   width: 100px;
   height: 100px;
   border-radius: 8px;
@@ -76,8 +75,8 @@ header .contact {
   border-radius: 10px;
   position: relative;
   margin-top: 20px;
-  width: 100%; /* Menyesuaikan lebar dengan ukuran layar */
-  max-width: 100%; /* Agar tetap terjaga di layar kecil */
+  width: 100%; 
+  max-width: 100%;
 }
 
 .coding-skill .box {
@@ -90,11 +89,11 @@ header .contact {
 }
 
 .coding-skill .box img {
-  width: 100%; /* Mengisi lebar kontainer box */
-  height: 100%; /* Mengisi tinggi kontainer box */
-  object-fit: cover; /* Menyesuaikan gambar agar mengisi kotak tanpa merusak proporsi */
-  border-radius: 8px; /* Sudut melengkung pada gambar */
-  transition: transform 0.3s ease; /* Efek transisi saat hover */
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 8px;
+  transition: transform 0.3s ease; 
 }
 
 .skill-header {
@@ -112,17 +111,12 @@ header .contact {
 
 .skill-content {
   display: flex;
-  align-items: center; /* ini sudah bagus */
+  align-items: center; 
   justify-content: center;
   gap: 100px;
   margin-top: 20px;
-  padding: 10px 0; /* tambahkan padding atas dan bawah */
-  flex-wrap: wrap; /* Agar elemen bisa membungkus jika layarnya sempit */
-}
-
-.coding-skill h3 {
-  text-align: center;
-  margin-bottom: 10px;
+  padding: 10px 0; 
+  flex-wrap: wrap; 
 }
 
 .arrow {
@@ -141,12 +135,6 @@ header .contact {
   right: 10px;
 }
 
-.box {
-  background-color: #f9f7f7;
-  width: 100px;
-  height: 100px;
-}
-
 .coding-skill .box:hover{
   transform: scale(1.25);
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -158,16 +146,16 @@ header .contact {
   color: white;
   padding: 10px;
   font-weight: bold;
-  border-radius: 8px 8px 0 0; /* bulat atas */
+  border-radius: 8px 8px 0 0; 
 }
 
 .isi-box {
-  background-color: #ffffff; /* putih */
+  background-color: #ffffff; 
   color: #000000;
   padding: 10px;
   font-weight: normal;
-  border-radius: 0 0 8px 8px; /* bulat bawah */
-  margin: 0; /* buang jarak antar kotak */
+  border-radius: 0 0 8px 8px; 
+  margin: 0; 
 }
 
 .team-grid {
@@ -199,11 +187,11 @@ header .contact {
 /* Responsif */
 @media screen and (max-width: 1024px) {
   .container {
-    grid-template-columns: 1fr 2fr; /* Sidebar lebih kecil */
+    grid-template-columns: 1fr 2fr; 
   }
 
   .team-grid {
-    grid-template-columns: repeat(3, 1fr); /* 3 kolom pada layar sedang */
+    grid-template-columns: repeat(3, 1fr); 
   }
 
   .skill-content {
@@ -211,42 +199,41 @@ header .contact {
   }
 
   .coding-skill .skill-content {
-    flex-direction: column; /* Mengubah orientasi skill-content */
+    flex-direction: column; 
   }
 }
 
-/* Responsif untuk tampilan lebih kecil dari 768px */
 @media screen and (max-width: 768px) {
   .container {
-    grid-template-columns: 1fr; /* Menjadikan layout menjadi satu kolom */
+    grid-template-columns: 1fr; 
   }
 
   .sidebar {
-    width: 100%; /* Sidebar menyesuaikan lebar layar */
-    margin-bottom: 20px; /* Memberi jarak antara sidebar dan konten utama */
+    width: 100%; 
+    margin-bottom: 20px; 
   }
 
   .main-content {
-    width: 100%; /* Mengatur lebar main-content */
+    width: 100%; 
   }
 
   .team-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar lebih kecil */
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .coding-skill .box {
-    width: 80px; /* Menyesuaikan ukuran kotak */
+    width: 80px;
     height: 80px;
   }
 
   .team-member .photo img {
-    width: 80px; /* Menyesuaikan ukuran foto */
+    width: 80px; 
     height: 80px;
   }
 
   .coding-skill .box img {
-    width: 80px; /* Menyesuaikan ukuran gambar pada layar kecil */
-    height: 80px; /* Menyesuaikan tinggi gambar */
+    width: 80px; 
+    height: 80px; 
   }
 
   .skill-content {
@@ -254,52 +241,51 @@ header .contact {
   }
 }
 
-/* Responsif untuk tampilan lebih kecil dari 480px */
 @media screen and (max-width: 480px) {
   header {
-    flex-direction: column; /* Mengubah header menjadi kolom */
+    flex-direction: column; 
     align-items: center;
   }
 
   .logo {
-    font-size: 18px; /* Mengurangi ukuran font logo */
+    font-size: 18px;
   }
 
   .contact {
-    font-size: 12px; /* Mengurangi ukuran font contact */
+    font-size: 12px; 
   }
 
   .container {
-    grid-template-columns: 1fr; /* Menjadikan seluruh layout menjadi satu kolom */
-    padding: 0 10px; /* Memberi jarak di sisi kiri dan kanan */
+    grid-template-columns: 1fr; 
+    padding: 0 10px; 
   }
 
   .team-grid {
-    grid-template-columns: 1fr; /* 1 kolom untuk team grid */
+    grid-template-columns: 1fr;
   }
 
   .team-member {
-    padding: 10px; /* Mengurangi padding pada team member */
+    padding: 10px;
   }
 
   .coding-skill .box {
-    width: 60px; /* Mengurangi ukuran kotak */
+    width: 60px;
     height: 60px;
   }
 
   .coding-skill .skill-header {
-    font-size: 16px; /* Mengurangi ukuran font header */
+    font-size: 16px;
     padding: 8px 16px;
   }
 
   .team-member .photo img {
-    width: 70px; /* Mengurangi ukuran foto */
+    width: 70px;
     height: 70px;
   }
 
   .coding-skill .box img {
-    width: 60px; /* Menyesuaikan ukuran gambar pada layar kecil */
-    height: 60px; /* Menyesuaikan tinggi gambar */
+    width: 60px; 
+    height: 60px; 
   }
 
   .skill-content {
