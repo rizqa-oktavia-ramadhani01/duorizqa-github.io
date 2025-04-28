@@ -5,28 +5,24 @@ body {
     background-color: #f0f2f5;
     color: #333;
 }
-  
 header {
     background-color: #4a90e2;
     color: white;
     text-align: center;
     padding: 2em 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-  
+} 
 nav {
     background-color: #3b74c5;
     text-align: center;
     padding: 1em 0;
-}
-  
+} 
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-}
-  
+} 
 nav a:hover {
     text-decoration: underline;
 }
@@ -39,19 +35,17 @@ section {
     border-radius: 10px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.03);
 }
-
 section h2 {
     font-size: 1.8em;
     text-align: center;
     border-bottom: 2px solid #ddd;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
-}
-  
+} 
 ul {
     padding-left: 20px;
-}
-  
+} 
+
 footer {
     background-color: #4a90e2;
     color: white;
@@ -69,7 +63,6 @@ footer {
     margin: 0.3em auto; /* jarak atas & bawah makin kecil */
     padding: 0.5em;
 }
-
 .container section {
     flex: 1 1 45%;
     box-sizing: border-box;
@@ -80,13 +73,17 @@ footer {
     margin: 2em auto;
     max-width: 1000px;
 }
-
+.galeri img{
+    width: 100%;  
+    max-width: 250px; 
+    height: auto;
+    border-radius: 8px;
+}
 .galeri h2 {
     font-size: 1.8em;
     margin-bottom: 1em;
     color: #333;
 }
-
 .galeri-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -95,22 +92,19 @@ footer {
 }
 
 .galeri-item {
-    position: relative; /* Menambahkan posisi relative untuk menempatkan teks di atas gambar */
+    position: relative; 
     width: 100%;
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
-
 .galeri-item:hover {
     transform: scale(1.05);
 }
-
 .galeri-item:hover .text-overlay {
     display: block; 
     font-size: 0.7em
 }
-
 .galeri-item .text-overlay {
     position: absolute;
     top: 50%; /* Menempatkan teks di tengah gambar */
@@ -128,11 +122,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
     .container section {
         width: 100%;
     }
-
     .galeri-images {
         grid-template-columns: 1fr 1fr;
     }
@@ -143,3 +135,6 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+
