@@ -1,0 +1,116 @@
+{
+    "skill":[
+        {"codingSkill":"imgProfile/cs1.png"},
+        {"codingSkill":"imgProfile/cs2.png"},
+        {"codingSkill":"imgProfile/cs3.png"},
+        {"codingSkill":"imgProfile/cs4.png"},
+        {"codingSkill":"imgProfile/cs5.png"},
+        {"codingSkill":"imgProfile/cs6.png"},
+        {"codingSkill":"imgProfile/cs7.png"},
+        {"codingSkill":"imgProfile/cs8.png"},
+        {"codingSkill":"imgProfile/cs9.png"},
+        {"codingSkill":"imgProfile/cs10.png"},
+        {"codingSkill":"imgProfile/cs11.png"},
+        {"codingSkill":"imgProfile/cs12.png"},
+        {"codingSkill":"imgProfile/cs13.png"}
+    ],
+    
+    "profile":[
+    {
+        "keanggotaan":"UKM FKIP MENGEAJAR ULM",
+        "gambarProfile":"imgProfile/img1.jpg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Divisi Humas Acara EduDays Tahun 2025"
+    },
+    {
+        "keanggotaan":"PIK-R SMAN 1 Banjarmasin",
+        "gambarProfile":"imgProfile/img2.jpg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Ketua Ekstrakulikuler PIK-R Periode 2023"
+    },
+    {
+        "keanggotaan":"UKM Peduli Pendidikan ULM",
+        "gambarProfile":"imgProfile/img3.jpeg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Ketua Divisi Program dan Pengembangan Tahun 2024"
+    },
+    {
+        "keanggotaan":"Komunitas Mengajar Pelosok",
+        "gambarProfile":"imgProfile/img4.jpeg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Relawan Pengajar Desa Hulu Sungai 29 Tahun 2025"
+    },
+    {
+        "keanggotaan":"Yayasan Gerakan Anak Bangsa",
+        "gambarProfile":"imgProfile/img5.jpeg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Koordinator Regional Kalimantan 2025"
+    },
+    {
+        "keanggotaan":"Komunitas Sahabat Literasi",
+        "gambarProfile":"imgProfile/img6.jpeg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Ketua Tim Pendidikan Dasar 2025"
+    },
+    {
+        "keanggotaan":"Gerakan Membangun Desa (GMD)",
+        "gambarProfile":"imgProfile/img7.jpeg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Relawan Penggerak UMKM Desa 2025"
+    },
+    {
+        "keanggotaan":"Komunitas Hijau Borneo (KHB)",
+        "gambarProfile":"imgProfile/img8.jpeg",
+        "nama":"Rizqa Oktavia Ramadhani",
+        "sebagai":"Ketua Divisi Konservasi Hutan 2025"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img9.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Kru Reporter Buletin Edisi XXVI"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img10.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"CO Divisi PDD Malam Keakraban 2025"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img9.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Kru Majalah VII"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img9.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Anggota Divisi PDD Semarak LPM Warta JITU X"
+    },
+    {
+        "keanggotaan":"UKM LPM Warta JITU",
+        "gambarProfile":"imgProfile/img13.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Relawan Pemuda Bakti Banua 2025"
+    },
+    {
+        "keanggotaan":"OSIM MAN 4 TABALONG",
+        "gambarProfile":"imgProfile/img14.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Ketua Divisi Humas OSIM MAN 4 Tabalong 2022/2023"
+    },
+    {
+        "keanggotaan":"Ambalan GUDEP MAN 4 TABALONG",
+        "gambarProfile":"imgProfile/img15.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Ketua Seksi Dokumentasi Perjusami 2022"
+    },
+    {
+        "keanggotaan":"OSIM MAN 4 TABALONG",
+        "gambarProfile":"imgProfile/img14.png",
+        "nama":"Rizqa Aulia Faiha",
+        "sebagai":"Koordinator Seksi Dokumentasi Perpisahan MAN 4 TABALONG 2024"
+    }
+]
+}
