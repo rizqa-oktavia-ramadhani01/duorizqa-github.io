@@ -5,50 +5,52 @@ body {
     background-color: #f0f2f5;
     color: #333;
 }
+
 header {
     background-color: #4a90e2;
     color: white;
     text-align: center;
     padding: 2em 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} 
+}
+
 nav {
     background-color: #3b74c5;
     text-align: center;
     padding: 1em 0;
-} 
+}
+
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-} 
+}
+
 nav a:hover {
     text-decoration: underline;
 }
-  
+
 section {
     max-width: 1000px;
-<<<<<<< HEAD
-    margin: 0.5em auto; 
-=======
-    margin: 0.5em auto; /* sebelumnya 1.5em */
->>>>>>> 4a2f349f4e71059bb6969bdd8267cf1fc3881e9d
+    margin: 0.5em auto;
     padding: 0.8em;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.03);
 }
+
 section h2 {
     font-size: 1.8em;
     text-align: center;
     border-bottom: 2px solid #ddd;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
-} 
+}
+
 ul {
     padding-left: 20px;
-} 
+}
 
 footer {
     background-color: #4a90e2;
@@ -57,22 +59,18 @@ footer {
     padding: 1em;
     margin-top: 3em;
     font-size: 0.9em;
-}  
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-<<<<<<< HEAD
-    gap: 12px; 
+    gap: 12px;
     max-width: 1000px;
-    margin: 0.3em auto; 
-=======
-    gap: 12px; /* lebih kecil dari 20px */
-    max-width: 1000px;
-    margin: 0.3em auto; /* jarak atas & bawah makin kecil */
->>>>>>> 4a2f349f4e71059bb6969bdd8267cf1fc3881e9d
+    margin: 0.3em auto;
     padding: 0.5em;
 }
+
 .container section {
     flex: 1 1 45%;
     box-sizing: border-box;
@@ -83,17 +81,20 @@ footer {
     margin: 2em auto;
     max-width: 1000px;
 }
-.galeri img{
-    width: 100%;  
-    max-width: 250px; 
+
+.galeri img {
+    width: 100%;
+    max-width: 250px;
     height: auto;
     border-radius: 8px;
 }
+
 .galeri h2 {
     font-size: 1.8em;
     margin-bottom: 1em;
     color: #333;
 }
+
 .galeri-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -102,39 +103,33 @@ footer {
 }
 
 .galeri-item {
-    position: relative; 
+    position: relative;
     width: 100%;
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
+
 .galeri-item:hover {
     transform: scale(1.05);
 }
+
 .galeri-item:hover .text-overlay {
-    display: block; 
-    font-size: 0.7em
+    display: block;
+    font-size: 0.7em;
 }
+
 .galeri-item .text-overlay {
     position: absolute;
-<<<<<<< HEAD
-    top: 50%; 
-=======
-    top: 50%; /* Menempatkan teks di tengah gambar */
->>>>>>> 4a2f349f4e71059bb6969bdd8267cf1fc3881e9d
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 1.5em;
     font-weight: bold;
-<<<<<<< HEAD
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 0.5em;
-    display: none; 
-=======
-    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang transparan agar teks lebih terlihat */
-    padding: 0.5em;
-    display: none; /* Menyembunyikan teks secara default */
->>>>>>> 4a2f349f4e71059bb6969bdd8267cf1fc3881e9d
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -142,22 +137,17 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .container section {
         width: 100%;
     }
+
     .galeri-images {
         grid-template-columns: 1fr 1fr;
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4a2f349f4e71059bb6969bdd8267cf1fc3881e9d
 @media (max-width: 480px) {
     .galeri-images {
         grid-template-columns: 1fr;
     }
 }
-
-
-
