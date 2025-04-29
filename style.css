@@ -150,4 +150,156 @@ footer {
     .galeri-images {
         grid-template-columns: 1fr;
     }
+body {
+    font-family: 'Trebuchet MS', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #3b74c5;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0.5em auto;
+    padding: 0.8em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.03);
+}
+
+section h2 {
+    font-size: 1.8em;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+    font-size: 0.9em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: 1000px;
+    margin: 0.3em auto;
+    padding: 0.5em;
+}
+
+.container section {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+}
+
+.galeri {
+    text-align: center;
+    margin: 2em auto;
+    max-width: 1000px;
+}
+
+.galeri img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.galeri h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.galeri-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.galeri-item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.galeri-item:hover {
+    transform: scale(1.05);
+}
+
+.galeri-item:hover .text-overlay {
+    display: block;
+    font-size: 0.7em;
+}
+
+.galeri-item .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+    display: none;
+}
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container section {
+        width: 100%;
+    }
+
+    .galeri-images {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .galeri-images {
+        grid-template-columns: 1fr;
+    }
 }
